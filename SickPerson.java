@@ -11,5 +11,12 @@ public SickPerson(String name,int age,int severity) {
 //	this.age=age;
 //	this.severity=severity;
 }
-protected compareto()
+public String toString() {
+	return null;
+}
+@Override
+protected int compareToImpl(Person p) {
+	// TODO Auto-generated method stub
+	return 0;
+}
 }
